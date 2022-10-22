@@ -1,7 +1,5 @@
-.hello-world {
-  text-align: center;
-  color: black;
-  font-weight: 700;
-  font-size: 3rem;
-  padding-top: 20vh;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
 }
