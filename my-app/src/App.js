@@ -1,11 +1,11 @@
 import './App.css';
-import Layout from './components/Layout';
+import { Rotas } from './Routes';
 
 function App() {
   return (
-    <div className="container">
-      <Layout />
-    </div>
+    <>
+      <Rotas />
+    </>
   );
 }
 

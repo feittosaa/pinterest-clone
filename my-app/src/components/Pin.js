@@ -1,13 +1,17 @@
 import React from 'react'
 
-function Pin(props) {
+function Pin(props, { id, likes, description }) {
     return (
-        <div style={{
-            ...styles.pin,
-            ...styles[props.size]
-        }}>
-
-        </div>
+        <>
+            <div style={{
+                ...styles.pin,
+                ...styles[props.size]
+            }}>
+                <img src={id} alt="foto" className="foto" />
+            </div>
+            {/* <h1>{description}</h1>
+            <h1>{likes}</h1> */}
+        </>
     )
 }
 
