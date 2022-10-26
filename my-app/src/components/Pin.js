@@ -8,9 +8,9 @@ function Pin(props, { id, likes, description }) {
                 ...styles[props.size]
             }}>
                 <img src={id} alt="foto" className="foto" />
-            </div>
             {/* <h1>{description}</h1>
             <h1>{likes}</h1> */}
+            </div>
         </>
     )
 }

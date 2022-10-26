@@ -34,11 +34,11 @@ function Layout() {
                 onChange={(ev) => setSearch(ev.target.value)}
             /> */}
 
-            {arrayPhotos
-                .filter((photos) =>
+            {/* .filter((photos) =>
                     photos.description.toLowerCase().includes(search) ||
                     photos.location.toLowerCase().includes(search)
-                )
+                ) */}
+            {arrayPhotos
                 .map((t, index) => {
                     return (
                         <div key={index}>

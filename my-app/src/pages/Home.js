@@ -1,10 +1,10 @@
+import Header from '../components/Header';
 import Layout from '../components/Layout';
 
 export function Home() {
-
     return (
-
-        <div className="container">
+        <div>
+            <Header />
             <Layout />
         </div>
     )
